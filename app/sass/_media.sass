@@ -1,0 +1,964 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1780px)
+  .callback-section__bg
+    width: 2119px
+    left: 50%
+    transform: translate(-50%,0)
+    margin: 0
+
+@media only screen and (max-width : 1520px)
+  .gallery-slider
+    padding: 0 20px
+    margin: 50px 0 0
+    .slick-prev
+      left: 0
+    .slick-next
+      right: 0
+
+@media only screen and (max-width : 1420px)
+  .tariffs-box
+    width: 400px
+
+  .gallery-box__max
+    width: 640px
+    height: 333px
+    margin: 0 20px
+
+  .gallery-box__column
+    max-width: 300px
+
+
+  .gallery-box__img
+    height: 155px
+    margin: 0 0 23px
+
+
+@media only screen and (max-width : 1340px)
+  .btn-callback__popup
+    width: 97px
+    height: 97px
+    right: 26px
+    bottom: 26px
+    padding: 26px
+
+  .table-tariffs
+    font-size: 15px
+
+  .tariffs-box
+    width: 339px
+    strong, span
+      font-size: 13px
+    h3
+      font-size: 20px
+
+
+  .table-tariffs td:nth-child(2), .table-tariffs th:nth-child(2)
+    width: 70px
+
+  .table-tariffs td:last-child, .table-tariffs th:last-child
+    width: 95px
+
+  .d-lg-none
+    display: none
+
+  .d-lg-50
+    width: 48.5%
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1199px)
+  .parallax-bg2
+    max-width: 569px
+
+  .parallax-bg3
+    max-width: 627px
+    top: 310px
+
+  .events-box
+    max-width: 216px
+    font-size: 13px
+    h3
+      font-size: 15px
+
+  .events-content
+    margin: 46px 0 0
+
+  .gallery-box__max
+    width: 433px
+    height: 333px
+    margin: 0 20px
+
+  .gallery-box__column
+    max-width: 208px
+
+  .gallery-box__img
+    height: 155px
+    margin: 0 0 23px
+
+  .about
+    .description
+      margin: 14px auto 64px
+      font-size: 15px
+
+  .about-parallax1
+    max-width: 621px
+    top: -77px
+
+  .about-parallax2
+    max-width: 267px
+    top: 220px
+
+  .about-parallax3
+    top: -77px
+    max-width: 621px
+
+  .about-parallax4
+    max-width: 228px
+    top: 260px
+
+@media only screen and (max-width : 1090px)
+  .tariffs-wrapper
+    justify-content: space-around
+
+  .tariffs-box
+    margin: 0 0 32px
+    padding: 17px 23px 7px
+
+  .footer-menu li
+    margin: 0 0 14px
+
+  .program-box
+    max-width: 221px
+    font-size: 13px
+    h3
+      font-size: 13px
+      margin: 20px auto 11px
+    .text
+      min-height: 70px
+    .icon
+      height: 67px
+      img
+        width: auto
+        height: 100%
+
+  .price
+    font-size: 13px
+
+@media only screen and (max-width : 991px)
+  .menu
+    li
+      margin: 0 20px 0 0
+
+
+  .main:before
+    height: 157px
+
+  .main
+    padding: 180px 0 488px
+    &:after
+      height: 477px
+      top: 100px
+
+
+  .main-title
+    font-size: 40px
+    text-align: center
+    margin: 0 auto
+
+  .main-box
+    max-width: 339px
+    width: 100%
+    .btn
+      margin: 19px auto 0
+
+  h2, h1
+    font-size: 40px
+
+  h3
+    font-size: 20px
+
+  .description
+    font-size: 15px
+
+  .tariffs
+    .description
+      max-width: 530px
+    .btn
+      max-width: 216px
+
+  .slick-arrow
+    width: 37px
+    height: 37px
+
+  .question
+    padding: 112px 0 128px
+
+  .question-wrapper
+    margin: 41px auto 0
+
+  .block_title
+    font-size: 15px
+    &:before
+      width: 16px
+      height: 10px
+
+  .block_hover
+    font-size: 15px
+
+  .callback-section
+    padding: 215px 0
+
+  .contacts-wrapper__box
+    width: 44%
+    margin: 0 0 26px
+    font-size: 13px
+
+  .contacts-wrapper
+    margin: 56px 0 27px
+    .phone
+      margin: 0 0 26px
+      order: 1
+      font-size: 13px
+    .address
+      font-size: 13px
+      margin: 0 0 26px
+
+  .mail
+    order: 1
+
+  .news-item .news-box__img
+    width: 157px
+    height: 151px
+    min-width: 157px
+
+  .news-item
+    margin: 0 0 23px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 890px)
+  header
+    padding: 16px 0
+
+  .navigation
+    display: none
+    position: fixed
+    left: 0
+    top: 0
+    box-shadow: 20px 5px 50px rgba(0, 0, 0, 0.5)
+    z-index: 100
+    max-width: 394px
+    width: 100%
+    height: 100%
+    overflow-y: auto
+    background: #fff
+    padding: 39px 102px
+    .logo, .btn-close
+      display: flex
+    .logo
+      margin: 0 auto 70px
+      max-width: 190px
+
+  .menu
+    flex-direction: column
+    align-items: center
+    li
+      margin: 0 auto 25px
+      a
+        color: #000
+
+
+  .btn-burger
+    display: flex
+    align-items: center
+    justify-content: flex-start
+
+  .main
+    &:after
+      height: 303px
+
+  .gallery-parallax
+    top: 500px
+    max-width: 1166px
+
+  .gallery
+    padding: 150px 0 102px
+
+  .about .description
+    max-width: 460px
+
+  .about-box
+    font-size: 13px
+    max-width: 220px
+    .btn
+      font-size: 13px
+      height: 40px
+    .text
+      min-height: 96px
+    h3
+      font-size: 13px
+    .icon
+      width: 85px
+      height: 85px
+
+  .map
+    height: 560px
+
+  .callback-section__bg
+    width: 1610px
+    transform: translate(0)
+    left: -505px
+
+  .callback-section
+    margin: -225px auto 0
+
+  footer
+    padding: 23px 0 97px
+    .container
+      align-items: flex-start
+    .phone
+      font-size: 13px
+    .logo
+      width: 131px
+
+  .address
+    font-size: 13px
+    max-width: 190px
+
+  .footer-menu
+    column-count: 1
+    display: flex
+    flex-direction: column
+    align-items: center
+    li
+      margin: 0 0 16px
+      &:nth-child(2)
+        margin: 0 0 16px
+      a
+        font-size: 13px
+
+  .name-company
+    max-width: 220px
+    margin: 0 auto 50px
+
+  .main-page-parallax1
+    width: 1079px
+    top: -193px
+    left: -625px
+    transform: rotate(-180deg)
+
+  .main-page-parallax2
+    transform: matrix(1, 0, 0, -1, 0, 0)
+    top: -215px
+    width: 1149px
+    right: -634px
+
+  .main-page
+    padding: 132px 0 228px
+
+  .header
+    padding: 16px 0 25px
+
+  .menu li a:before
+    bottom: -5px
+
+  .regulations-content
+    margin: 39px 0 106px
+
+  .regulations-box
+    font-size: 13px
+    h3
+      font-size: 13px
+      margin: 19px 0 15px
+      min-height: 32px
+    .icon
+      width: 83px
+
+  .main-page-parallax3
+    width: 694px
+    top: -78px
+    right: -381px
+
+  .program
+    padding: 78px 0 89px
+    h2
+      margin: 0 auto 51px
+
+  .main-page-parallax4
+    max-width: 295px
+    top: 0
+    left: 0
+    img
+      display: none
+    .img-tablet
+      display: block
+
+  .footer, .regulations, .header-page
+    &:before
+      width: calc(100% - 35px)
+
+  .price
+    margin: 20px auto 11px
+
+  .footer
+    padding: 33px 0 48px
+
+  .main-page-wrap
+    padding: 157px 0 0
+
+  .news-box
+    font-size: 13px
+    margin: 0 0 42px
+    h4
+      font-size: 15px
+      margin: 0 0 10px
+
+  .links-accent
+    font-size: 13px
+    margin: 11px 0 0
+
+  .news-wrapper
+    margin: 52px 0 80px
+
+  .news-box__img
+    margin: 0 0 12px
+
+  .news-box-center
+    .news-box__img
+      height: 325px
+
+  .news-item .news-box__content
+    padding: 0 0 0 22px
+
+@media only screen and (max-width : 767px)
+  .modal__div
+    max-width: 610px
+    .modal__wrapper
+      padding: 88px 82px 84px
+      h2
+        margin: 0 auto 15px
+      .description
+        font-size: 15px
+        max-width: 351px
+        margin: 0 auto 30px
+    .modal__close
+      top: 37px
+      right: 38px
+
+  input, textarea
+    font-size: 13px
+
+  textarea
+    height: 69px
+    padding: 12px 16px
+    border-radius: 17px
+
+  .checkbox
+    font-size: 11px
+    .checkbox-custom
+      width: 16px
+      height: 16px
+      min-width: 16px
+
+  input
+    height: 40px
+
+  label
+    margin: 0 0 25px
+
+  .form-box
+    label
+      margin: 0 0 15px
+
+  .form .text-label
+    margin: 0 0 13px
+
+  .form .checkbox
+    margin: 0 0 10px
+
+  .btn-accent, .btn-border
+    height: 40px
+
+  .btn
+    font-size: 13px
+
+  .events
+    padding: 0 0 115px
+
+  .callback-section h2
+    margin: 0 auto 32px
+
+  .d-tablet-none, .main-news-parallax1, .main-news-parallax2
+    display: none
+
+  .tablet-100
+    width: 100%
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 740px)
+  main
+    .container
+      flex-direction: column
+      align-items: center
+
+  .main
+    padding: 227px 0 210px
+    &:after
+      top: 220px
+
+  .main-box
+    margin: 0 0 99px
+    &:last-child
+      margin: 0
+
+  .parallax-bg2
+    max-width: 469px
+
+  .parallax-bg3
+    max-width: 427px
+
+  .events-box
+    margin: 0 auto 52px
+
+  .events
+    padding: 0 0 29px
+
+
+  .events-content
+    margin: 28px 0 0
+
+  .program-box
+    margin: 0 0 69px
+    &:last-child
+      margin: 0
+
+  .program-content
+    flex-direction: column
+    align-items: center
+
+
+
+@media only screen and (max-width : 700px)
+  .d-sm-none
+    display: none
+
+  .d-sm-100
+    width: 100%
+
+  .order-sm-1
+    order: 1
+
+
+
+@media only screen and (max-width : 630px)
+  .gallery-parallax, .about-parallax
+    display: none
+
+  .regulations-content
+    margin: 42px 0 36px
+    flex-direction: column
+    align-items: center
+
+  .regulations-box
+    max-width: 262px
+    text-align: center
+    justify-content: center
+    margin: 0 0 40px
+    .icon
+      margin: 0 auto
+    h3
+      margin: 16px auto 18px
+      min-height: auto
+
+  .main-page-parallax3
+    width: 566px
+    right: -311px
+    top: 88px
+
+
+
+
+@media only screen and (max-width : 575px)
+  .modal__div
+    .modal__wrapper
+      margin: 0 auto
+      padding: 60px 30px 67px
+      h2
+        margin: 0 auto 24px
+      .description
+        margin: 0 auto 24px
+    .form
+      max-width: 257px
+      .checkbox
+        margin: 0 auto 15px
+
+    label
+      margin: 0 0 15px
+
+    input
+      padding: 0 13px
+    .modal__close
+      top: 32px
+      right: 30px
+
+  .checkbox
+    font-size: 11px
+
+  .btn-callback__popup
+    width: 66px
+    height: 66px
+    right: 30px
+    bottom: 30px
+    padding: 18px
+
+  .logo
+    max-width: 129px
+
+  .btn-burger
+    width: 23px
+
+  header
+    .phone
+      .text
+        display: none
+    .box-contacts
+      .links
+        display: none
+
+  .navigation
+    padding: 83px 65px 47px
+    .logo
+      margin: 0 auto 93px
+    .box-contacts
+      display: flex
+      justify-content: center
+      margin: 123px auto 0
+      .phone
+        color: #000000
+        .text
+          display: flex
+      .links
+        display: flex
+        color: #000000
+        margin: 0 0 0 20px
+
+  .btn-close
+    width: 16px
+    height: 16px
+    top: 30px
+    right: 30px
+
+  .main
+    padding: 150px 0
+    &:after
+      top: 180px
+
+  .parallax-bg2
+    max-width: 541px
+    top: -140px
+
+  .parallax-bg3
+    top: 140px
+
+  h2
+    font-size: 30px
+
+  h1
+    font-size: 25px
+
+  .description
+    font-size: 13px
+
+  .tariffs
+    .description
+      margin: 29px auto
+
+  .gallery-box__column
+    max-width: none
+
+  .gallery-box__img
+    height: 160px
+    margin: 0 auto 10px
+
+  .gallery-box__max
+    margin: 0 auto
+    height: auto
+
+  .gallery-slider
+    margin: 29px 0 0
+    padding: 0
+    .slick-next
+      right: -20px
+    .slick-prev
+      left: -20px
+
+  .gallery-box
+    width: 264px
+    height: 203px
+    margin: 0 auto
+
+  .gallery-box__img
+    height: 49%
+
+  .about .description
+    margin: 13px auto 43px
+    font-size: 13px
+
+  .about-wrapper
+    flex-direction: column
+    align-items: center
+
+  .about-box
+    font-size: 13px
+    margin: 0 0 60px
+    max-width: 216px
+    &:last-child
+      margin: 0
+    .text
+      max-width: 190px
+      margin: 0 auto 19px
+      min-height: auto
+
+  .question
+    padding: 73px 0 60px
+
+  .panel_heading
+    padding: 0 0 20px
+    margin: 0 0 20px
+
+  .block_hover
+    margin: 20px 0 0
+
+  .question-wrapper
+    margin: 42px 0 0
+
+  .map
+    height: 524px
+
+  .callback-section
+    padding: 219px 0 259px
+    h2
+      margin: 0 auto 36px
+
+  .form-box
+    width: 100%
+
+  .callback-section__bg
+    left: -693px
+    width: 1910px
+
+  .callback-section
+    margin: -249px auto 0
+
+  footer
+    padding: 0 0 129px
+    .container
+      flex-direction: column
+      align-items: center
+    .box-contacts
+      align-items: center
+
+
+  .footer-menu
+    margin: 42px auto 48px
+
+  .address
+    margin: 23px auto 0
+    .icon
+      width: 14px
+      height: 19px
+      min-width: 14px
+
+  .name-company
+    max-width: 167px
+    margin: 0 auto 58px
+
+  .main-page
+    padding: 106px 0 246px
+
+  .main-page-parallax1
+    width: 493px
+    left: -200px
+    top: 0
+
+  .main-page-parallax2
+    top: 187px
+    right: -136px
+    width: 525px
+
+  .header
+    padding: 19px 0 29px
+
+  .program
+    padding: 47px 0 35px
+    h2
+      margin: 0 0 55px
+
+  .program-box
+    .text
+      min-height: auto
+
+  .price
+    margin: 20px auto 11px
+
+  .main-page-parallax4
+    max-width: 222px
+    top: -69px
+
+  .footer
+    padding: 55px 0 122px
+    margin: 0
+
+  .main-page-wrap
+    padding: 108px 0 0
+
+  .contacts-wrapper
+    flex-direction: column
+    align-items: center
+    margin: 42px 0 33px
+    .address
+      max-width: 200px
+      margin: 0 0 21px
+    .phone
+      order: 0
+      margin: 0 0 21px
+      .text
+        margin: 0 0 0 11px
+
+  .contacts-wrapper__box
+    max-width: 200px
+    width: 100%
+    justify-content: center
+    margin: 0 0 21px
+
+  .mail
+    margin: 0
+    .icon
+      margin: 0 10px 0 0
+
+  .schedule .icon
+    margin: 0 10px 0 0
+
+  .d-mobile-none
+    display: none
+
+  .news-box-center .news-box__img, .news-box__img
+    height: 177px
+
+  .news-wrapper
+    margin: 45px 0 24px
+
+  .news-box
+    margin: 0 0 50px
+
+  .news-item
+    margin: 0 0 28px
+
+    .news-box__img
+      width: 116px
+      min-width: 116px
+      height: 151px
+    .news-box__content
+      padding: 0 0 0 30px
+
+
+@media only screen and (max-width : 480px)
+  .main
+    padding: 327px 0 422px
+    &:after
+      display: none
+
+  .main-box
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%,-50%)
+      background: radial-gradient(50% 50% at 50% 50%, #000000 0%, rgba(0, 0, 0, 0) 100%)
+      width: 571px
+      height: 292px
+    >*
+      position: relative
+
+  .img-pc
+    display: none
+  .img-mob
+    display: block
+
+  .parallax-bg3
+    max-width: 282px
+    top: 613px
+    right: -31px
+
+  .parallax-bg2
+    top: -23px
+
+  .parallax-bg1
+    top: -23px
+
+  .main-title
+    max-width: 257px
+
+  .parallax-100
+    width: calc(100% + 20px)
+
+  .tariffs-box
+    max-width: 260px
+    margin: 0 0 28px
+    padding: 17px 13px 7px
+
+  .table-tariffs td:nth-child(2), .table-tariffs th:nth-child(2), .table-tariffs td:last-child, .table-tariffs th:last-child
+    width: auto
+
+  .tariffs
+    .btn
+      max-width: 260px
+
+  .gallery
+    padding: 95px 0
+
+  .container
+    padding: 0 28px
+
+  .callback-section__bg
+    left: -693px
+    width: 1810px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+  .main
+    padding: 327px 0 422px
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
