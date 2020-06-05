@@ -24,7 +24,7 @@
 
 <body>
 
-<header>
+<header class="header">
     <div class="container">
         <div class="btn-burger">
             <img src="img/burger.svg" alt="">
@@ -65,50 +65,30 @@
     </div>
 </header>
 
-<main class="main">
+<main class="main-page main-about">
+    <div class="main-about__bg"><img src="img/bg21.jpg" alt=""></div>
 
-    <div class="parallax-bg parallax-bg1 parallax-100">
+    <div class="main-page-parallax main-about-parallax1 ml-15">
         <div id="parallax-bg__one">
-            <div data-depth-x="0.1" data-depth-y="0.05">
-                <img src="img/bg1.png" alt="" class="img-pc">
-                <img src="img/bg1-mob.png" class="img-mob" alt="">
-            </div>
+            <div data-depth-x="0.2" data-depth-y="-0.1"><img src="img/bg18.png" alt=""></div>
         </div>
     </div>
-
-    <div class="parallax-bg parallax-bg2 ml-15">
-        <div id="parallax-bg__two">
-            <div data-depth-x="0.1" data-depth-y="0.25">
-                <img src="img/bg2.png" alt=""></div>
-        </div>
-    </div>
-
-    <div class="parallax-bg parallax-bg3 mr-15">
-        <div id="parallax-bg__three">
-            <div data-depth-x="0.1" data-depth-y="-0.1">
-                <img src="img/bg3.png" alt=""></div>
-        </div>
-    </div>
-
 
     <div class="container">
 
-        <div class="main-box">
-            <div class="main-title">ИГРОВОЙ КЛУБ</div>
-            <a href="#" class="btn btn-border">ЗАБРОНИРОВАТЬ МЕСТО</a>
+        <div class="name-company"><img src="img/logo-max.svg" alt=""></div>
+        <div class="description">
+            <p>Компьютерный клуб нового поколения.</p>
+            <p>2 компьютерных зала с современным железом, суперкомфортная зона с PS и самые востребованные игры</p>
         </div>
 
-        <div class="main-box">
-            <div class="main-title">КИБЕР ШКОЛА</div>
-            <a href="#" class="btn btn-border">ПЕРЕЙТИ НА КУРС</a>
-        </div>
-
+        <a href="#" class="btn btn-border">ЗАБРОНИРОВАТЬ МЕСТО</a>
     </div>
 </main>
 
 <section class="events">
     <div class="container">
-        <h2>События и акции</h2>
+        <h2 class="transform-none">События и акции</h2>
 
         <div class="events-content d-flex flex-wrap align-items-stretch justify-content-between w-100">
             <div class="events-box">
@@ -140,10 +120,7 @@
 
 <section class="tariffs color-white">
     <div class="container">
-        <h2>ИГРОВОЙ КЛУБ CYBER GAMER</h2>
-        <div class="description">Описание игрового клуба. сколько компьютеров, какие мощности, в чем преимущества,
-            где находиться, или что то про бонусы и цены
-        </div>
+        <h2 class="transform-none">Цены </h2>
 
         <div class="tariffs-wrapper d-flex flex-wrap align-items-stretch justify-content-between w-100">
             <div class="tariffs-box">
@@ -347,17 +324,172 @@
                 </table>
             </div>
         </div>
+    </div>
+</section>
 
-        <a href="#" class="btn btn-accent">Подробнее</a>
+<section class="characteristics color-white">
+    <div class="main-page-parallax characteristics-parallax1 mr-15">
+        <div id="parallax-bg__two">
+            <div data-depth-x="0.1" data-depth-y="-0.2"><img src="img/bg19.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="main-page-parallax characteristics-parallax2 mr-15">
+        <div id="parallax-bg__three">
+            <div data-depth-x="0.1" data-depth-y="0.2"><img src="img/bg20.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Характеристики наших ПК</h2>
+
+        <div class="characteristics-wrapper w-100 d-flex align-items-start justify-content-between flex-wrap">
+            <div class="characteristics-box">
+                <h3>КОМПЛЕКТАЦИЯ
+                    <span>Стандарт</span></h3>
+                <ul>
+                    <li>
+                        <strong>Процессор</strong>
+                        <p>Intel Core I5-9400F</p>
+                    </li>
+                    <li>
+                        <strong>Видеокарта</strong>
+                        <p>GTX1660TI-O6G</p>
+                    </li>
+                    <li>
+                        <strong>Память</strong>
+                        <p>16 GB (2x8)</p>
+                    </li>
+                    <li>
+                        <strong>Монитор</strong>
+                        <p>Acer KG251QFbmidpx 24.5" 144GHz</p>
+                    </li>
+                    <li>
+                        <strong>МЫШКА</strong>
+                        <p>Logitech G102 Prodigy Mouse</p>
+                    </li>
+                    <li>
+                        <strong>КЛАВИАТУРА</strong>
+                        <p>A4 Bloody B975</p>
+                    </li>
+                    <li>
+                        <strong>НАУШНИКИ</strong>
+                        <p>HyperX Cloud Stinger</p>
+                    </li>
+                    <li>
+                        <strong>КРЕСЛО</strong>
+                        <p>DXRacer серия "Formula"</p>
+                    </li>
+                </ul>
+                <div class="characteristics-box__val">24 машины</div>
+                <a href="#" class="btn btn-border">ЗАБРОНИРОВАТЬ МЕСТО</a>
+            </div>
+            <div class="characteristics-box">
+
+                <h3>КОМПЛЕКТАЦИЯ
+                    <span>VIP</span></h3>
+                <ul>
+                    <li>
+                        <strong>Процессор</strong>
+                        <p>Intel Core i7-9700KF</p>
+                    </li>
+                    <li>
+                        <strong>Видеокарта</strong>
+                        <p>MSI GeForce RTX 2070 SUPER</p>
+                    </li>
+                    <li>
+                        <strong>Память</strong>
+                        <p>16 GB</p>
+                    </li>
+                    <li>
+                        <strong>Монитор</strong>
+                        <p>Acer KG271Bbmiipx 27" 240GHz</p>
+                    </li>
+                    <li>
+                        <strong>МЫШКА</strong>
+                        <p>Hyper Pulsefire Surge</p>
+                    </li>
+                    <li>
+                        <strong>КЛАВИАТУРА</strong>
+                        <p>HyperX Alloy FPS RGB</p>
+                    </li>
+                    <li>
+                        <strong>НАУШНИКИ</strong>
+                        <p>HyperX Cloud Alpha Red</p>
+                    </li>
+                    <li>
+                        <strong>КРЕСЛО</strong>
+                        <p>DXRacer серия Racing</p>
+                    </li>
+                </ul>
+                <div class="characteristics-box__val">10 машины</div>
+                <a href="#" class="btn btn-border">ЗАБРОНИРОВАТЬ МЕСТО</a>
+            </div>
+            <div class="characteristics-box">
+
+                <h3>КОМПЛЕКТАЦИЯ
+                    <span>PS</span></h3>
+                <ul>
+                    <li>
+                        <strong> Легендарная игровая консоль, не нуждающаяся в представлении. Вы или обожаете её, или
+                            просто о ней не слышали</strong>
+                    </li>
+
+                </ul>
+                <div class="characteristics-box__val">4 консоли</div>
+                <a href="#" class="btn btn-border">ЗАБРОНИРОВАТЬ МЕСТО</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="popular-games">
+    <div class="popular-games__parallax main-page-parallax parallax-100 mr-15">
+        <div id="gallery-parallax__one">
+            <div data-depth-x="0.2" data-depth-y="-0.1"><img src="img/bg17.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="popular-games__pc">
+        <div class="container">
+            <h2>Все популярные игры для PC</h2>
+
+            <div class="popular-games__wrapper w-100 d-flex align-items-stretch justify-content-around flex-wrap">
+                <div class="popular-games__logo"><img src="img/csgo.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/fortnite.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/overwatch.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/crossout.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/warface.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/apex.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/wot.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/tf2.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/hl3.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/dota2.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/lol.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/wows.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popular-games__ps">
+        <div class="container">
+            <h2>А так же эксклюзивы для PSC</h2>
+
+            <div class="popular-games__wrapper w-100 d-flex align-items-stretch justify-content-around flex-wrap">
+                <div class="popular-games__logo"><img src="img/fifa20.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/tlou.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/ufc3.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/tekken7.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/rdr2.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/gran_tourismo.png" alt=""></div>
+                <div class="popular-games__logo"><img src="img/mk11.png" alt=""></div>
+            </div>
+        </div>
     </div>
 </section>
 
 <section class="gallery">
-    <div class="gallery-parallax mr-15">
-        <div id="gallery-parallax__one">
-            <div data-depth-x="0.1" data-depth-y="-0.1"><img src="img/bg4.png" alt=""></div>
-        </div>
-    </div>
+
 
     <div class="container">
         <h2>ГАЛЛЕРЕЯ</h2>
@@ -393,150 +525,8 @@
     </div>
 </section>
 
-<section class="about">
+<footer class="footer">
 
-    <div class="about-parallax about-parallax1 ml-15">
-        <div id="about-parallax__one">
-            <div data-depth-x="0.2" data-depth-y="-0.2"><img src="img/bg6.png" alt=""></div>
-        </div>
-    </div>
-
-    <div class="about-parallax about-parallax2 ml-15">
-        <div id="about-parallax__two">
-            <div data-depth-x="0.2" data-depth-y="-0.2"><img src="img/bg5.png" alt=""></div>
-        </div>
-    </div>
-
-    <div class="about-parallax about-parallax3 mr-15">
-        <div id="about-parallax__three">
-            <div data-depth-x="0.2" data-depth-y="-0.2"><img src="img/bg7.png" alt=""></div>
-        </div>
-    </div>
-
-    <div class="about-parallax about-parallax4 mr-15">
-        <div id="about-parallax__four">
-            <div data-depth-x="0.2" data-depth-y="-0.2"><img src="img/bg8.png" alt=""></div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <h2>КИБЕРШКОЛА CYBER GAMER</h2>
-
-        <div class="description">Описание школы. чему обучают и зачем, в чем преимущества, где находиться, или
-            описание киберспорта и прочее.
-        </div>
-
-        <div class="about-wrapper w-100 d-flex align-items-start justify-content-between flex-wrap">
-            <div class="about-box">
-                <div class="icon"><img src="img/icon1.svg" alt=""></div>
-                <div class="text">
-                    <h3>Обучение онлайн</h3>
-                    <p>3 занятия в неделю
-                        по 2 часа. Связь по Discord
-                        или Face time.</p>
-                </div>
-
-                <a href="#" class="btn btn-accent">Подробнее</a>
-            </div>
-            <div class="about-box">
-                <div class="icon"><img src="img/icon2.svg" alt=""></div>
-                <div class="text">
-                    <h3>Обучение в кибершколе</h3>
-                    <p>3 занятия в неделю
-                        по 2 часа. По адресу
-                        г.Воронеж, ул. Фридриха Энегельса, 25б, оф. 403</p>
-                </div>
-
-                <a href="#" class="btn btn-accent">Подробнее</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="question color-white">
-    <div class="container">
-        <h2>Часто задаваемые вопросы</h2>
-
-        <div class="question-wrapper w-100">
-            <div class="panel_heading">
-                <div class="block_title">
-                    1. Для кого Кибершкола?
-                </div>
-                <div class="block_hover">
-                    <p>Для школьников старших классов, начиная с 8-го, и студентов младших курсов, не старше 2-го
-                        курса.</p>
-                </div>
-            </div>
-
-            <div class="panel_heading">
-                <div class="block_title">
-                    2. Как попасть в Кибершколу?
-                </div>
-                <div class="block_hover">
-                    <p>Необходимо пройти регистрацию и решить вступительные задания. Задания будут высланы на адрес
-                        электронной почты, указанный при регистрации.</p>
-                </div>
-            </div>
-
-            <div class="panel_heading">
-                <div class="block_title">
-                    3. Условия участия:
-                </div>
-                <div class="block_hover">
-                    <p>Программа является бесплатной для участников на основе вступительного испытания. Количество
-                        мест ограничено.</p>
-                </div>
-            </div>
-
-            <div class="panel_heading">
-                <div class="block_title">
-                    4. Формат обучения:
-                </div>
-                <div class="block_hover">
-                    <p>Обучение очное, будет проводиться 3 раза в неделю по адресу г.Воронеж, ул. Фридриха
-                        Энегельса, 25б, оф. 403.</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<div class="map" id="map"></div>
-
-<section class="callback-section">
-
-    <div class="callback-section__bg parallax-100">
-        <div id="callback-section__bg">
-            <div data-depth-x="0.1" data-depth-y="-0.1"><img src="img/bg9.png" alt=""></div>
-        </div>
-    </div>
-
-    <div class="container">
-        <h2>Свяжитесь с нами</h2>
-
-        <form method="post" class="form w-100">
-            <div class="form-box">
-                <label><input type="text" placeholder="ФИО" name="name"></label>
-                <label><input type="text" placeholder="Телефон" name="phone"></label>
-                <label><input type="text" placeholder="e-mail" name="e-mail"></label>
-            </div>
-
-            <div class="form-box">
-                <label class="text-label"><textarea name="message" placeholder="Ваше сообщение"></textarea></label>
-                <label class="checkbox">
-                    <input class="checkbox-inp" type="checkbox" name="checkbox">
-                    <span class="checkbox-custom"></span>
-                    <span class="label">Я согласен на обработку моих персональных данных</span>
-                </label>
-                <button type="submit" class="btn btn-accent">Оставить заявку</button>
-            </div>
-        </form>
-    </div>
-</section>
-
-<footer>
     <div class="container">
         <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
 
@@ -600,8 +590,8 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-<script src="js/libs.min.js"></script>
 <script src="https://api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
+<script src="js/libs.min.js"></script>
 <script src="js/common.js"></script>
 
 </body>

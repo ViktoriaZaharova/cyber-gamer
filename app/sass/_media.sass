@@ -36,6 +36,10 @@
     height: 155px
     margin: 0 0 23px
 
+  .footer, .regulations, .header-page
+    &:before
+      width: calc(100% - 35px)
+
 
 @media only screen and (max-width : 1340px)
   .btn-callback__popup
@@ -118,6 +122,23 @@
   .about-parallax4
     max-width: 228px
     top: 260px
+
+  .characteristics-parallax1
+    width: 876px
+    top: auto
+    right: -50px
+    bottom: -328px
+
+  .characteristics-parallax2
+    width: 713px
+    top: auto
+    bottom: -134px
+    right: 0
+
+  .popular-games__parallax
+    right: -681px
+    width: 2136px
+    top: -190px
 
 @media only screen and (max-width : 1090px)
   .tariffs-wrapper
@@ -236,6 +257,45 @@
 
   .news-item
     margin: 0 0 23px
+
+  .main-about
+    padding: 132px 0 107px
+    margin: 0 0 85px
+    .description
+      max-width: 521px
+    .btn
+      margin: 30px auto 0
+      max-width: 220px
+
+
+  .main-about-parallax1
+    width: 304px
+    top: 290px
+
+  .characteristics
+    padding: 108px 0 0
+
+
+
+  .characteristics-box
+    margin: 85px 0 0
+    font-size: 13px
+    line-height: normal
+    .btn
+      max-width: 215px
+      margin: 20px 0 0
+    h3
+      font-size: 13px
+    ul
+      padding: 20px 0
+      &:before, &:after
+        width: 14px
+      li
+        margin: 0 0 20px
+
+  .characteristics-box__val
+    margin: 20px 0 0
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 890px)
@@ -395,9 +455,7 @@
     .img-tablet
       display: block
 
-  .footer, .regulations, .header-page
-    &:before
-      width: calc(100% - 35px)
+
 
   .price
     margin: 20px auto 11px
@@ -431,6 +489,10 @@
 
   .news-item .news-box__content
     padding: 0 0 0 22px
+
+  .popular-games__logo
+    margin: 0 0 47px
+
 
 @media only screen and (max-width : 767px)
   .modal__div
@@ -496,7 +558,20 @@
   .tablet-100
     width: 100%
 
+  .popular-games__logo
+    width: 33%
 
+  .popular-games
+    padding: 268px 0 0
+    h2
+      margin: 0 auto 55px
+
+  .popular-games__pc
+    margin: 0 0 26px
+
+  .popular-games__parallax
+    top: -250px
+    width: 2850px
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 740px)
@@ -551,6 +626,27 @@
 
   .order-sm-1
     order: 1
+
+  .characteristics-parallax2, .characteristics-parallax1
+    display: none
+
+  .characteristics-box
+    width: 100%
+    margin: 0 0 80px
+    &:last-child
+      margin: 0
+    .btn
+      max-width: 257px
+    ul
+      margin: 15px 0
+      padding: 15px 0
+      li
+        margin: 0 0 17px
+
+  .characteristics
+    padding: 60px 0 0
+    h2
+      margin: 0 0 30px
 
 
 
@@ -675,7 +771,10 @@
 
   .tariffs
     .description
-      margin: 29px auto
+      margin: 29px auto 0
+
+  .tariffs-wrapper
+    margin: 29px 0 0
 
   .gallery-box__column
     max-width: none
@@ -865,6 +964,37 @@
     .news-box__content
       padding: 0 0 0 30px
 
+  .main-about
+    padding: 106px 0 149px
+    margin: 0 0 59px
+    .description
+      max-width: 260px
+      font-size: 15px
+
+  .main-about-parallax1
+    top: 265px
+    width: 224px
+    left: -40px
+
+  .popular-games
+    padding: 210px 0 0
+    h2
+      margin: 0 auto 46px
+
+  .popular-games__logo
+    width: 50%
+    padding: 0 15px
+    margin: 0 0 23px
+
+  .popular-games__pc
+    margin: 0 0 48px
+
+  .popular-games__parallax
+    width: 2986px
+    right: auto
+    left: 50%
+    top: -210px
+    transform: translate(-50%,0)
 
 @media only screen and (max-width : 480px)
   .main
@@ -930,35 +1060,14 @@
     left: -693px
     width: 1810px
 
+  .popular-games__parallax
+    width: 2986px
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
   .main
     padding: 327px 0 422px
 
-
-/*==========  Mobile First  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px)
-	/**/
-
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px)
-	/**/
-
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px)
-	/**/
-
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px)
-	/**/
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px)
-	/**/
+  .popular-games__parallax
+    width: 2856px
 
