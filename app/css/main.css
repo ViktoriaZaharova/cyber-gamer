@@ -1441,15 +1441,84 @@ footer {
   margin: 0 0 71px; }
 
 .main-bonus {
+  padding: 156px 0 115px;
   position: relative; }
+  .main-bonus .description {
+    text-transform: uppercase;
+    margin: 22px auto 72px; }
 
 .main-bonus-parallax1 {
   top: 0;
-  left: 0; }
+  left: 0;
+  width: 550px; }
 
 .main-bonus-parallax2 {
   right: 0;
   bottom: 0; }
+
+.table-bonus {
+  max-width: 930px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 30px; }
+  .table-bonus thead {
+    color: rgba(255, 204, 0, 0.65);
+    font-size: 15px; }
+    .table-bonus thead th {
+      padding: 0; }
+    .table-bonus thead tr {
+      border: none; }
+  .table-bonus td, .table-bonus th {
+    vertical-align: middle; }
+    .table-bonus td:last-child, .table-bonus th:last-child {
+      text-align: right;
+      width: 140px; }
+    .table-bonus td:nth-child(2), .table-bonus th:nth-child(2) {
+      width: 300px; }
+  .table-bonus tbody td {
+    padding: 24px 0; }
+
+.main-package {
+  padding: 156px 0 55px; }
+  .main-package .description {
+    margin: 22px auto 69px;
+    max-width: 867px;
+    text-transform: uppercase;
+    font-size: 30px; }
+
+.main-package-parallax1 {
+  bottom: 0;
+  left: 0; }
+
+.main-package-parallax2 {
+  right: -355px;
+  bottom: 0; }
+
+.table-package {
+  max-width: 1235px;
+  font-size: 30px;
+  line-height: 32px; }
+  .table-package thead {
+    font-size: 30px;
+    color: #FFCC00;
+    text-transform: none; }
+  .table-package .price {
+    margin: 0; }
+  .table-package span {
+    font-size: 15px;
+    color: rgba(255, 204, 0, 0.65);
+    text-transform: uppercase;
+    line-height: 18px; }
+  .table-package td {
+    padding: 22px 0 26px; }
+  .table-package td, .table-package th {
+    width: auto; }
+    .table-package td:last-child, .table-package th:last-child {
+      text-align: left;
+      width: 140px;
+      float: right; }
+    .table-package td:nth-child(2), .table-package th:nth-child(2) {
+      width: 40%; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
@@ -1483,7 +1552,9 @@ footer {
     height: 155px;
     margin: 0 0 23px; }
   .footer:before, .regulations:before, .header-page:before {
-    width: calc(100% - 35px); } }
+    width: calc(100% - 35px); }
+  .main-bonus-parallax1 {
+    width: 500px; } }
 
 @media only screen and (max-width: 1340px) {
   .btn-callback__popup {
@@ -1507,7 +1578,19 @@ footer {
   .d-lg-none {
     display: none; }
   .d-lg-50 {
-    width: 48.5%; } }
+    width: 48.5%; }
+  .table-bonus td:nth-child(2), .table-bonus th:nth-child(2) {
+    width: auto; }
+  .table-bonus td:last-child, .table-bonus th:last-child {
+    width: auto; }
+  .table-package {
+    font-size: 20px; }
+    .table-package .price {
+      font-size: 20px; }
+    .table-package th:last-child, .table-package td:last-child {
+      width: 110px; }
+    .table-package thead {
+      font-size: 20px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1199px) {
@@ -1560,7 +1643,12 @@ footer {
   .popular-games__parallax {
     right: -681px;
     width: 2136px;
-    top: -190px; } }
+    top: -190px; }
+  .table-bonus {
+    font-size: 20px;
+    max-width: 462px; }
+  .table-package {
+    max-width: 460px; } }
 
 @media only screen and (max-width: 1090px) {
   .tariffs-wrapper {
@@ -1686,7 +1774,12 @@ footer {
       .characteristics-box ul li {
         margin: 0 0 20px; }
   .characteristics-box__val {
-    margin: 20px 0 0; } }
+    margin: 20px 0 0; }
+  .table-bonus {
+    font-size: 15px;
+    max-width: 462px; }
+    .table-bonus thead {
+      font-size: 13px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 890px) {
@@ -1870,7 +1963,53 @@ footer {
   .news-item .news-box__content {
     padding: 0 0 0 22px; }
   .popular-games__logo {
-    margin: 0 0 47px; } }
+    margin: 0 0 47px; }
+  .main-bonus {
+    padding: 150px 0 95px; }
+    .main-bonus .description {
+      margin: 15px auto 53px;
+      max-width: 365px; }
+  .table-bonus thead p {
+    max-width: 105px;
+    margin: 0 auto; }
+  .table-bonus thead th:first-child p {
+    margin: 0; }
+  .table-bonus thead th:last-child p {
+    margin: 0 0 0 auto; }
+  .main-bonus-parallax1 {
+    width: 304px; }
+  .main-bonus-parallax2 {
+    right: -90px; }
+  .main-package-parallax1 {
+    left: -110px; }
+  .main-package-parallax2 {
+    width: 604px;
+    right: -35px;
+    top: 82px; }
+  .main-package {
+    padding: 149px 0 38px; }
+    .main-package .description {
+      font-size: 20px;
+      margin: 16px auto 46px;
+      max-width: 537px; }
+  .table-package {
+    font-size: 15px;
+    line-height: normal; }
+    .table-package thead {
+      text-align: left;
+      font-size: 15px; }
+    .table-package span {
+      font-size: 13px; }
+    .table-package tbody td {
+      text-align: left;
+      padding: 22px 0 34px;
+      vertical-align: top; }
+    .table-package td, .table-package th {
+      width: 25%; }
+      .table-package td:last-child, .table-package th:last-child {
+        width: 95px; }
+    .table-package .price {
+      font-size: 15px; } }
 
 @media only screen and (max-width: 767px) {
   .modal__div {
@@ -1930,7 +2069,9 @@ footer {
     margin: 0 0 26px; }
   .popular-games__parallax {
     top: -250px;
-    width: 2850px; } }
+    width: 2850px; }
+  .footer-bonus {
+    padding: 33px 0 57px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 740px) {
@@ -2304,7 +2445,58 @@ footer {
     left: 50%;
     top: -210px;
     -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); } }
+            transform: translate(-50%, 0); }
+  .main-bonus-parallax1 {
+    top: 164px;
+    left: -100px; }
+  .main-bonus {
+    padding: 113px 0 104px; }
+    .main-bonus .description {
+      margin: 13px auto 40px;
+      font-size: 15px; }
+  .table-bonus {
+    font-size: 13px; }
+    .table-bonus thead {
+      font-size: 12px; }
+      .table-bonus thead p {
+        max-width: 100px; }
+    .table-bonus tr td, .table-bonus tr th {
+      width: 33%; }
+    .table-bonus td {
+      padding: 18px 0 25px; }
+  .main-package {
+    padding: 118px 0 72px; }
+    .main-package .description {
+      margin: 23px auto 40px;
+      font-size: 15px;
+      max-width: 265px; }
+  .table-package {
+    font-size: 13px; }
+    .table-package span {
+      font-size: 11px;
+      max-width: 60px;
+      display: inline-block; }
+    .table-package thead {
+      font-size: 13px; }
+    .table-package .price {
+      font-size: 13px; }
+    .table-package tbody td {
+      padding: 17px 0;
+      width: 60px; }
+    .table-package tr td, .table-package tr th {
+      width: 60px; }
+      .table-package tr td:last-child, .table-package tr th:last-child {
+        width: 60px;
+        float: none; }
+      .table-package tr td:nth-child(2), .table-package tr th:nth-child(2) {
+        width: 60px; }
+  .main-package-parallax2 {
+    top: 151px;
+    width: 404px; }
+  .main-package-parallax1 {
+    left: -190px; }
+  .footer-bonus {
+    padding: 51px 0 52px; } }
 
 @media only screen and (max-width: 480px) {
   .main {
@@ -2357,7 +2549,13 @@ footer {
     left: -693px;
     width: 1810px; }
   .popular-games__parallax {
-    width: 2986px; } }
+    width: 2986px; }
+  .table-package tbody td {
+    width: 60px; }
+  .table-package tr td, .table-package tr th {
+    width: 60px; }
+    .table-package tr td:last-child, .table-package tr th:last-child {
+      width: 60px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {

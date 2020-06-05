@@ -40,6 +40,9 @@
     &:before
       width: calc(100% - 35px)
 
+  .main-bonus-parallax1
+    width: 500px
+
 
 @media only screen and (max-width : 1340px)
   .btn-callback__popup
@@ -71,6 +74,24 @@
 
   .d-lg-50
     width: 48.5%
+
+  .table-bonus
+    td, th
+      &:nth-child(2)
+        width: auto
+      &:last-child
+        width: auto
+
+  .table-package
+    font-size: 20px
+    .price
+      font-size: 20px
+    th, td
+      &:last-child
+        width: 110px
+    thead
+      font-size: 20px
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1199px)
@@ -139,6 +160,15 @@
     right: -681px
     width: 2136px
     top: -190px
+
+  .table-bonus
+    font-size: 20px
+    max-width: 462px
+
+  .table-package
+    max-width: 460px
+
+
 
 @media only screen and (max-width : 1090px)
   .tariffs-wrapper
@@ -295,6 +325,12 @@
 
   .characteristics-box__val
     margin: 20px 0 0
+
+  .table-bonus
+    font-size: 15px
+    max-width: 462px
+    thead
+      font-size: 13px
 
 
 /* Small Devices, Tablets */
@@ -493,6 +529,67 @@
   .popular-games__logo
     margin: 0 0 47px
 
+  .main-bonus
+    padding: 150px 0 95px
+    .description
+      margin: 15px auto 53px
+      max-width: 365px
+
+  .table-bonus
+    thead
+      p
+        max-width: 105px
+        margin: 0 auto
+      th
+        &:first-child
+          p
+            margin: 0
+        &:last-child
+          p
+            margin: 0 0 0 auto
+
+  .main-bonus-parallax1
+    width: 304px
+
+  .main-bonus-parallax2
+    right: -90px
+
+  .main-package-parallax1
+    left: -110px
+
+  .main-package-parallax2
+    width: 604px
+    right: -35px
+    top: 82px
+
+  .main-package
+    padding: 149px 0 38px
+    .description
+      font-size: 20px
+      margin: 16px auto 46px
+      max-width: 537px
+
+  .table-package
+    font-size: 15px
+    line-height: normal
+    thead
+      text-align: left
+      font-size: 15px
+    span
+      font-size: 13px
+    tbody
+      td
+        text-align: left
+        padding: 22px 0 34px
+        vertical-align: top
+    td, th
+      width: 25%
+      &:last-child
+        width: 95px
+    .price
+      font-size: 15px
+
+
 
 @media only screen and (max-width : 767px)
   .modal__div
@@ -572,6 +669,9 @@
   .popular-games__parallax
     top: -250px
     width: 2850px
+
+  .footer-bonus
+    padding: 33px 0 57px
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 740px)
@@ -996,6 +1096,69 @@
     top: -210px
     transform: translate(-50%,0)
 
+  .main-bonus-parallax1
+    top: 164px
+    left: -100px
+
+  .main-bonus
+    padding: 113px 0 104px
+    .description
+      margin: 13px auto 40px
+      font-size: 15px
+
+  .table-bonus
+    font-size: 13px
+    thead
+      font-size: 12px
+      p
+        max-width: 100px
+    tr
+      td, th
+        width: 33%
+    td
+      padding: 18px 0 25px
+
+  .main-package
+    padding: 118px 0 72px
+    .description
+      margin: 23px auto 40px
+      font-size: 15px
+      max-width: 265px
+
+  .table-package
+    font-size: 13px
+    span
+      font-size: 11px
+      max-width: 60px
+      display: inline-block
+    thead
+      font-size: 13px
+    .price
+      font-size: 13px
+    tbody
+      td
+        padding: 17px 0
+        width: 60px
+    tr
+      td, th
+        width: 60px
+
+        &:last-child
+          width: 60px
+          float: none
+        &:nth-child(2)
+          width: 60px
+
+  .main-package-parallax2
+    top: 151px
+    width: 404px
+
+  .main-package-parallax1
+    left: -190px
+
+  .footer-bonus
+    padding: 51px 0 52px
+
 @media only screen and (max-width : 480px)
   .main
     padding: 327px 0 422px
@@ -1062,6 +1225,17 @@
 
   .popular-games__parallax
     width: 2986px
+
+  .table-package
+    tbody
+      td
+        width: 60px
+    tr
+      td, th
+        width: 60px
+
+        &:last-child
+          width: 60px
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
